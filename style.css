@@ -1,31 +1,43 @@
 /****Yellow page ***/
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
 
 #ybody {
     background-color: yellow;
 }
 
+.yheader {
+    margin: 15% auto;
+}
+
 h1 {
     text-align: center;
+
 }
 
 .div1 {
     text-align: center;
-    margin: auto;
+    margin: 30% auto;
 }
 
-a:link, a:active, a:visited {
+/**a:link, a:active, a:visited {
     text-decoration: none;
-}
+}**/
 
 a.button1 {
+    text-decoration: none;
     background-color: yellow;
     color: black;
-    border: 2px solid black;
+    border: 5px solid black;
+    padding: 30px;
 }
 
 a.button1:hover {
     background-color: black;
     color: yellow;
+    border: 5px solid black;
 }
 
 /***Black page***/
@@ -34,22 +46,29 @@ a.button1:hover {
     background-color: black;
 }
 
+.bheader {
+    margin: 15% auto;
+}
+
 .bh1 {
     color: yellow;
 }
 
 .div2 {
     text-align: center;
-    margin: auto;
+    margin: 30% auto;
 }
 
-.button2 {
+a.button2 {
+    text-decoration: none;
     background-color: black;
     color: yellow;
-    border: 2px solid yellow;
+    border: 5px solid yellow;
+    padding: 30px;
 }
 
-.button2:hover {
+a.button2:hover {
     background-color: yellow;
     color: black;
+    border: 5px solid yellow;
 }
