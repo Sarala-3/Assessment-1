@@ -1,4 +1,6 @@
-body {
+/****Yellow page ***/
+
+#ybody {
     background-color: yellow;
 }
 
@@ -10,6 +12,7 @@ h1 {
     text-align: center;
     margin: auto;
 }
+
 .button1 {
     background-color: yellow;
     color: black;
@@ -18,5 +21,15 @@ h1 {
 
 .button1:hover {
     background-color: black;
+    color: yellow;
+}
+
+/***Black page***/
+
+#bbody {
+    background-color: black;
+}
+
+.bh1 {
     color: yellow;
 }
