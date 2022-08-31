@@ -45,10 +45,6 @@ img:hover {
     margin: 15% auto;
 }
 
-/**a:link, a:active, a:visited {
-    text-decoration: none;
-}**/
-
 a.button1 {
     text-decoration: none;
     background-color: yellow;
