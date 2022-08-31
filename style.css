@@ -5,6 +5,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -16,9 +21,7 @@ p {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+    margin: 10% auto;
     width: 40%;
 }
 
@@ -34,17 +37,12 @@ img:hover {
 }
 
 .yheader {
-    margin: 15% auto;
-}
-
-h1 {
-    text-align: center;
-
+    margin: 5% auto;
 }
 
 .div1 {
     text-align: center;
-    margin: 20% auto;
+    margin: 15% auto;
 }
 
 /**a:link, a:active, a:visited {
@@ -72,7 +70,7 @@ a.button1:hover {
 }
 
 .bheader {
-    margin: 15% auto;
+    margin: 5% auto;
 }
 
 .bh1 {
@@ -81,7 +79,7 @@ a.button1:hover {
 
 .div2 {
     text-align: center;
-    margin: 20% auto;
+    margin: 15% auto;
 }
 
 a.button2 {
@@ -99,6 +97,11 @@ a.button2:hover {
 }
 
 .bwords {
+    color: yellow;
+    font-weight: lighter;
+}
+
+.bend {
     color: yellow;
     font-weight: lighter;
 }
