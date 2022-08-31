@@ -1,3 +1,22 @@
 body {
     background-color: yellow;
 }
+
+h1 {
+    text-align: center;
+}
+
+.div1 {
+    text-align: center;
+    margin: auto;
+}
+.button1 {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+
+.button1:hover {
+    background-color: black;
+    color: yellow;
+}
