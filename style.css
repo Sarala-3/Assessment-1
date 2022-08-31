@@ -13,13 +13,17 @@ h1 {
     margin: auto;
 }
 
-.button1 {
+a:link, a:active, a:visited {
+    text-decoration: none;
+}
+
+a.button1 {
     background-color: yellow;
     color: black;
     border: 2px solid black;
 }
 
-.button1:hover {
+a.button1:hover {
     background-color: black;
     color: yellow;
 }
@@ -32,4 +36,20 @@ h1 {
 
 .bh1 {
     color: yellow;
+}
+
+.div2 {
+    text-align: center;
+    margin: auto;
+}
+
+.button2 {
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+.button2:hover {
+    background-color: yellow;
+    color: black;
 }
